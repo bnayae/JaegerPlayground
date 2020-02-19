@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+option csharp_namespace = "JaegerGrpcService";
+
+package greet;
+
+// The greeting service definition.
+service GrpcTest {
+  // Sends a greeting
+  rpc Execute (RequestDto) returns (ResponseDto);
+}
+
+// The request message containing the user's name.
+message RequestDto {
+  int32 value = 1;
+}
+
+// The response message containing the greetings.
+message ResponseDto {
+  int32 result = 1;
+}
