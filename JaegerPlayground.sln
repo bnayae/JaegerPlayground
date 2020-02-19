@@ -5,7 +5,12 @@ VisualStudioVersion = 16.0.29728.190
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JaegerPlayground", "JaegerPlayground\JaegerPlayground.csproj", "{1284B5C1-DDB7-4269-A51F-11E5E830D80D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JaegerGrpcService", "JaegerGrpcService\JaegerGrpcService.csproj", "{EDE0F70B-0FE3-4F8B-8FE6-EEA24FE083B5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JaegerGrpcService", "JaegerGrpcService\JaegerGrpcService.csproj", "{EDE0F70B-0FE3-4F8B-8FE6-EEA24FE083B5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{CD90C397-2B5D-4943-BF0A-6AF961149085}"
+	ProjectSection(SolutionItems) = preProject
+		ReadMe.md = ReadMe.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
